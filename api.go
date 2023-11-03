@@ -12,7 +12,7 @@ type tcpingRes struct {
 	Message string `json:"message"`
 }
 
-var port = "8080"
+var port = "23197"
 var timeout = 1 * time.Second
 
 func main() {
