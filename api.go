@@ -13,7 +13,7 @@ type tcpingRes struct {
 }
 
 var port = "23197"
-var timeout = 1 * time.Second
+var timeout = 60 * time.Second
 
 func main() {
 	gin.SetMode(gin.ReleaseMode)
